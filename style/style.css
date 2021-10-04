@@ -1,0 +1,100 @@
+		*{
+			margin: 0;
+			padding: 0;
+		}
+
+		body{
+				background-color:#000000;
+		}
+
+		.nav{
+
+			display: flex;
+			justify-content: space-around;
+			
+			
+			align-items: center;
+		
+			background-image:linear-gradient(to right, #191970, #696969); 
+			text-align: center;
+			height: 80px;
+			width: 100%;
+			line-height: 80px;
+			font-family: 'Montserrat', sans-serif;
+			font-size: 10px;	
+			color: white;	
+			
+		}
+
+
+		.suasmusicas{
+			
+
+		}
+
+		.icons-nav{
+			width: 20px;
+			cursor: pointer;
+		}
+
+		
+		.lista{
+			display: flex;
+			flex-direction: column;
+			list-style: none;
+			background-color: black;
+		}
+
+		.elementos-li{
+			
+			display: flex;
+			justify-content: space-between;
+			border-bottom: 0.2px solid #1C1C1C;
+
+
+
+		}
+
+		.foto{
+			width: 50px;
+			
+		}
+
+		.foto-infos{
+			
+			display: flex;
+			padding: 3px;
+			
+		}
+
+		span{
+			margin-left: 5px;
+		}
+
+		.icone{
+			display: flex;
+			align-items: center;
+		}
+		.icone img{
+			width: 25px;
+			margin-right: 15px;
+			cursor: pointer;
+
+
+		}
+
+		span h3{
+			font-size: 13px;
+			color: white;
+			font-family: 'Montserrat', sans-serif;
+			
+		
+		}
+
+		span i {
+			font-size: 9px;
+			color: silver;
+			font-family: 'Montserrat', sans-serif;
+
+		}
+		
